@@ -207,5 +207,5 @@ runs:
     BITBUCKET_APP_PASSWORD: ${{ inputs.bitbucket_app_password }}
     PRISMA_API_URL: ${{ inputs.prisma-api-url }}
     CKV_VALIDATE_SECRETS: ${{ inputs.ckv_validate_secrets }}
-    GITHUB_OVERRIDE: ${{ inputs.github_override }}
+    $GITHUB_OVERRIDE_URL: ${{ inputs.github_override }}
     
