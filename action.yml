@@ -158,7 +158,7 @@ branding:
   color: 'purple'
 runs:
   using: 'docker'
-  image: 'docker://ghcr.io/eriweb/checkov:sha256-5d89851d21d089b37a19a1e60b476d339c68b31c9ca3ac27a176d49195eae4ee'
+  image: 'docker://ghcr.io/eriweb/checkov:main'
   args:
     - ${{ inputs.file }}
     - ${{ inputs.directory }}
